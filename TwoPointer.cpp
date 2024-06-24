@@ -33,7 +33,7 @@ int main() {
      std::sort(lou, lou + nlou, compareUsers);
      
 
-std::sort(loo, loo + nloo, [](const order& o1, const order& o2) {
+     std::sort(loo, loo + nloo, [](const order& o1, const order& o2) {
         return o1.user_id < o2.user_id;
     });
     // Start the two-pointer matching process
